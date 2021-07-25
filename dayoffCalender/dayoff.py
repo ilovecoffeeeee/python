@@ -5,7 +5,7 @@ def day_off(person_date):
 	
 	people = []
 	dates = []
-	
+
 	for person, date in person_date.items():
 		people.append(person)
 		dates = dates + date
